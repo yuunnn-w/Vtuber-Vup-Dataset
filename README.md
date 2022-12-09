@@ -40,9 +40,14 @@ The dataset contains 18 Vtuber/Vups with the following class names:
 - Azi 阿梓  
 - GZY_w 顾子韵  
 - Mayumi 麻尤米  
-## 关于我
+## 关于我(About me)
   - 我是一位还在就读大学三年级的本科生(2022年)，建立此数据集也单纯的是出于兴趣爱好。  
   - 如果您对我的数据集有任何疑问，或是该数据集涉及了一些版权问题等，请联系我。  
   - 您可以称呼我为小阳，您可以通过如下两种方式联系到我：  
-    - 我的邮箱是：jiaxinsugar@gmail.com
-    - 您也可以在哔哩哔哩平台上私信我，我的哔哩哔哩UID:436636983  
+    - 我的邮箱是：jiaxinsugar@gmail.com。  
+    - 您也可以在哔哩哔哩平台上私信我，我的哔哩哔哩UID:436636983。  
+  - I am a third-year undergraduate student (2022), and I built this dataset purely out of interest.  
+  - If you have any questions about my dataset, or if the dataset involves some copyright issues, etc., please contact me.  
+  - You can call me 小阳Xiaoyang, you can contact me in two ways:  
+    - My email address is: jiaxinsugar@gmail.com。  
+    - You can also send me a private message on the Bilibili platform, My Bilibili UID: 436636983。  
