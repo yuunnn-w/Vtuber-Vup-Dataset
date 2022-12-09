@@ -16,32 +16,43 @@
   - 采用labelimg软件进行标注，标签标注格式为yolov格式，和每一类的图片存放在同一个文件夹下。  
   - 共有1904张Vtuber/Vups的图片，其中有1841张图片作为训练集，63张图片作为测试集。  
   - 数据集中每一个文件夹的名字就是一位虚拟主播的代号，这里采用拼音命名和主播自己的英文名结合的方法给主播命名。  
-  - 文件夹下面即可看到对应的图片和标签，在根目录下也可以看到包含所有类别名字的classes.txt文件和yolov5的数据集路径配置的yaml文件。  
+  - 文件夹下面即可看到对应的图片和标签，在根目录下也可以看到包含所有类别名字的classes.txt文件。  
   - Use labelimg software for annotation, label labeling format is yolov format, and each type of picture is stored in the same folder.  
   - A total of 1904 Vtuber/Vups images, including 1841 images as training sets and 63 images as test sets.  
   - The name of each folder in the dataset is the code name of a virtual host, and the method of combining pinyin naming and the host's own English name is used to name the host.  
-  - The corresponding pictures and tags can be seen under the folder, and the YAML file containing all the category names and .txt the YOLOV5 dataset path configuration can also be seen in the root directory.  
+  - The corresponding pictures and tags can be seen under the folder, and the .txt file containing all the category names can also be seen in the root directory.  
 ### 数据集内容(Dataset content)
-数据集包含18位Vtuber/Vups，他们的类别名字如下：  
-The dataset contains 18 Vtuber/Vups with the following class names:  
-- Nana7mi 七海娜娜米  
-- DongXueLian 东雪莲  
-- BingTangIO 冰糖IO  
-- MieLi 咩栗  
-- Diana 嘉然  
-- Taffy 塔菲  
-- DaSi 大思(凜凜蝶凜)  
-- MingQianNaiLv 明前奶绿  
-- XiaoKe 小可学妹  
-- XingTong 星瞳  
-- TaoJiOvO 桃几OvO  
-- LingYuan_yousa 泠鸢  
-- ShenLeQiNai_KaguraNana 神樂七奈  
-- MaoLei_Nyaru 猫雷  
-- KizunaAI 绊爱  
-- Azi 阿梓  
-- GZY_w 顾子韵  
-- Mayumi 麻尤米  
+- 数据集包含18位Vtuber/Vups，他们的类别名字如下：  
+- The dataset contains 18 Vtuber/Vups with the following class names:  
+  - Nana7mi 七海娜娜米(123 images)  
+  - DongXueLian 东雪莲(75 images)  
+  - BingTangIO 冰糖IO(153 images)  
+  - MieLi 咩栗(109 images)  
+  - Diana 嘉然(91 images)  
+  - Taffy 塔菲(122 images)  
+  - DaSi 大思(凜凜蝶凜)(30 images)  
+  - MingQianNaiLv 明前奶绿(40 images)  
+  - XiaoKe 小可学妹(98 images)  
+  - XingTong 星瞳(92 images)  
+  - TaoJiOvO 桃几OvO(48 images)  
+  - LingYuan_yousa 泠鸢(122 images)  
+  - ShenLeQiNai_KaguraNana 神樂七奈(154 images)  
+  - MaoLei_Nyaru 猫雷(94 images)  
+  - KizunaAI 绊爱(101 images)  
+  - Azi 阿梓(107 images)  
+  - GZY_w 顾子韵(31 images)  
+  - Mayumi 麻尤米(42 images)
+  
+- 另外，数据集还包含一些未指定标签的虚拟主播形象：
+- In addition, the dataset contains some Vtuber/Vups images without labels:
+  - Other 其他(209 images)
+  
+- 以上就是全部用于训练的数据集，共计1841张图片，后续如果作者有时间会持续更新并扩充数据集。值得注意的是，该数据集不是平衡的，各个类别图片数量的差距较为巨大，这是由于不同虚拟主播的知名度有所差异，所以每个虚拟主播图片的丰富程度也不尽相同。  
+- 以下是该数据集在yolov5s模型上训练得到的Precision-Recall曲线图：
+- The above is all the dataset used for training, a total of 1841 images, and the author will continue to update and expand the dataset if he has time.It is worth noting that the dataset is not balanced, and the difference in the number of images in each category is relatively large, which is due to the difference in the popularity of different Vtuber/Vups, so the richness of each Vtuber/Vups picture is not the same.  
+- The following is the Precision-Recall graph of this dataset trained on the yolov5s model:  
+![Image text](https://raw.githubusercontent.com/JiaXinSugar-114514/Vtuber-Vup-Dataset/main/gzy.jpg)
+ 
 ## 关于我(About me)
   - 我是一位还在就读大学三年级的本科生(2022年)，建立此数据集也单纯的是出于兴趣爱好。  
   - 如果您对我的数据集有任何疑问，或是该数据集涉及了一些版权问题等，请联系我。  
