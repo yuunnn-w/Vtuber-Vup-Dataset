@@ -1,4 +1,4 @@
-# 虚拟主播数据集(Vtuber-Vup-Dataset)
+# 虚拟主播数据集(Vtuber&Vup Dataset)
 ## 项目介绍(Project Introduction)
   - 这是一个Vtuber和Vup（即虚拟主播）的目标检测（yolov）数据集仓库，包括18名Vtuber/Vups。  
   - 数据集由小阳（我）建立并开源，数据来源是互联网以及各大主播在Bilibili的动态图片。  
