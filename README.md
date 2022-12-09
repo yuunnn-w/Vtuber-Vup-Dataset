@@ -5,8 +5,10 @@
   - This is a warehouse of object detection (yolov) datasets for Vtuber and Vup (i.e., virtual streamers), including 18 Vtuber/Vups.  
   - The dataset was built and open source by Xiaoyang小阳 (I), and the data source is the Internet and the dynamic pictures of these Vtuber/Vups on Bilibili.  
 ## 使用范例(Usage examples)  
-  - 以下是虚拟主播目标检测示例，采用yolov5m模型进行检测。  
-  - The following is an example of Vtuber/Vups anchor target detection, which is detected using the Yolov5M model.  
+  - 您可以将本数据集用于训练任意的目标检测模型，具体的训练方法请参考对应的模型介绍。  
+  - 以下是虚拟主播目标检测示例，采用yolov5m模型进行检测。 
+  - You can use this dataset to train any object detection model, please refer to the corresponding model introduction for specific training methods.
+  - The following is an example of Vtuber/Vups anchor target detection, which is detected using the Yolov5m model.  
 ### 顾子韵GZY 
 ![Image text](https://raw.githubusercontent.com/JiaXinSugar-114514/Vtuber-Vup-Dataset/main/gzy.jpg)
 ## 数据集介绍(Introduction to datasets)
@@ -28,7 +30,7 @@ The dataset contains 18 Vtuber/Vups with the following class names:
 - MieLi 咩栗  
 - Diana 嘉然  
 - Taffy 塔菲  
-- DaSi 大思  
+- DaSi 大思(凜凜蝶凜)  
 - MingQianNaiLv 明前奶绿  
 - XiaoKe 小可学妹  
 - XingTong 星瞳  
