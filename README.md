@@ -10,13 +10,18 @@
 ### 顾子韵GZY 
 ![Image text](https://raw.githubusercontent.com/JiaXinSugar-114514/Vtuber-Vup-Dataset/main/gzy.jpg)
 ## 数据集介绍(Introduction to datasets)
-### 数据集格式  
+### 数据集格式(Dataset format)  
   - 采用labelimg软件进行标注，标签标注格式为yolov格式，和每一类的图片存放在同一个文件夹下。  
   - 共有1904张Vtuber/Vups的图片，其中有1841张图片作为训练集，63张图片作为测试集。  
   - 数据集中每一个文件夹的名字就是一位虚拟主播的代号，这里采用拼音命名和主播自己的英文名结合的方法给主播命名。  
   - 文件夹下面即可看到对应的图片和标签，在根目录下也可以看到包含所有类别名字的classes.txt文件和yolov5的数据集路径配置的yaml文件。  
-### 数据集内容
-  - 数据集包含18位Vtuber/Vups，他们的名字如下：  
+  - Use labelimg software for annotation, label labeling format is yolov format, and each type of picture is stored in the same folder.  
+  - A total of 1904 Vtuber/Vups images, including 1841 images as training sets and 63 images as test sets.  
+  - The name of each folder in the dataset is the code name of a virtual host, and the method of combining pinyin naming and the host's own English name is used to name the host.  
+  - The corresponding pictures and tags can be seen under the folder, and the YAML file containing all the category names and .txt the YOLOV5 dataset path configuration can also be seen in the root directory.  
+### 数据集内容(Dataset content)
+数据集包含18位Vtuber/Vups，他们的类别名字如下：  
+The dataset contains 18 Vtuber/Vups with the following class names:  
 - Nana7mi 七海娜娜米  
 - DongXueLian 东雪莲  
 - BingTangIO 冰糖IO  
@@ -35,4 +40,3 @@
 - Azi 阿梓  
 - GZY_w 顾子韵  
 - Mayumi 麻尤米  
-- Other 其他虚拟主播  
